@@ -9,6 +9,17 @@ public class StringCalculator {
 		{
 			return Integer.parseInt(numbers);
 		}
+		else if(numbers.length() >= 2 )
+		{
+			int sumOfNumber = 0  ; 
+			 String[] nums = numbers.split(",");
+			 for (String num : nums) {
+	                if (!num.isEmpty()) {
+	                	sumOfNumber += Integer.parseInt(num);
+	                }
+	            }
+			 return sumOfNumber ; 
+		}
 		else
 			return -1 ; 
 	}
