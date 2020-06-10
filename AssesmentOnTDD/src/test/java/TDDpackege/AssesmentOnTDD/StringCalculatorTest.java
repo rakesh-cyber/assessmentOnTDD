@@ -44,5 +44,13 @@ public class StringCalculatorTest {
 		Assert.assertEquals(1+2+3, str.add("1\n2,3,4"));
         
     }
+	@Test
+    public  void AddStringContainDelemeter() {
+		
+		StringCalculator str = new StringCalculator();
+		
+		Assert.assertEquals(1+2, str.add("//;\\n1;2"));
+        
+    }
 
 }
