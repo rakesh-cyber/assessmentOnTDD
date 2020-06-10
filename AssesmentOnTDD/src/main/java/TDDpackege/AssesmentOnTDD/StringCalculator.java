@@ -5,7 +5,11 @@ public class StringCalculator {
 	{
 		if(numbers.length() == 0 )
 		return 0;
-		else 
+		else if(numbers.length() == 1)
+		{
+			return Integer.parseInt(numbers);
+		}
+		else
 			return -1 ; 
 	}
 
