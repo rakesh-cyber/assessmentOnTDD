@@ -1,6 +1,8 @@
 package TDDpackege.AssesmentOnTDD;
 
 public class StringCalculator {
+	
+	
 	public static int add(String numbers)
 	{
 		if(numbers.length() == 0 )
@@ -17,8 +19,7 @@ public class StringCalculator {
 				char ch = numbers.charAt(i); 
 				if (Character.isDigit(ch)) 
 					sum += Integer.parseInt(String.valueOf(ch)); 
-		
-				
+
 			} 
 		
 			 return sum ; 
