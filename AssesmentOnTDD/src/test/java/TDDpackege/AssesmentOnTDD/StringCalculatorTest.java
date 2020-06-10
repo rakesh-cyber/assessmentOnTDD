@@ -41,7 +41,7 @@ public class StringCalculatorTest {
 		
 		StringCalculator str = new StringCalculator();
 		
-		Assert.assertEquals(1+2+3, str.add("1\n2,3"));
+		Assert.assertEquals(1+2+3, str.add("1\n2,3,4"));
         
     }
 
